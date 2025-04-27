@@ -4,7 +4,7 @@ const Timeline = () => {
   return (
    
 
-<div classNameName='w-full flex justify-center  py-20 px-10'>
+<div classNameName='w-full flex justify-center py-20 px-10'>
 <ol className="items-start justify-center sm:flex">
     <li className="relative mb-6 sm:mb-0">
         <div className="flex items-center">

@@ -6,7 +6,7 @@ import AnimatedContent from "../../reactBits/CominginText";
 export default function FactsAbout() {
   return (
     <div>
-      <div className="fact-media flex items-center flex-row gap-10 border-2 mt-20 border-[#2222226e] h-[400px]">
+      <div className="fact-media flex items-center flex-row gap-10 border-2 mt-20 border-[#2222226e] h-[400px] ">
           <div className="text-fact-media flex flex-col justify-center items-center border-r-2  border-[#2222226e]  h-[400px] w-[33.3%] ">
             <AnimatedContent
               distance={150}
@@ -54,7 +54,7 @@ export default function FactsAbout() {
             </AnimatedContent>
           </div>
 
-          <div className="text-fact-media w-[33.3%] flex flex-col justify-center items-center gap-4 text-center p-3 border-l-2  border-[#2222226e] h-[400px]">
+          <div className="text-fact-media-last w-[33.3%] flex flex-col justify-center items-center gap-4 text-center p-3 border-l-2  border-[#2222226e] h-[400px]">
             <AnimatedContent
               distance={150}
               direction="vertical"

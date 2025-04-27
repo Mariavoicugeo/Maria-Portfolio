@@ -13,7 +13,7 @@ export default function About() {
 
       <section className=" w-full h-auto border-t border-[#2222226e]  bg-[#f0f0f0] overflow-x-hidden">
     
-        <div className=" border-b border-[#2222226e] w-full flex justify-center items-center py-10">
+        <div className=" border-b border-[#2222226e] w-full flex justify-center items-center py-10 ">
           <FadeContent
             blur={true}
             duration={1000}
@@ -36,7 +36,7 @@ export default function About() {
           easing="ease-out"
           initialOpacity={0}
         >
-          <div className="py-16">
+          <div className="py-16 px-10">
             <Timeline />
           </div>
         </FadeContent>

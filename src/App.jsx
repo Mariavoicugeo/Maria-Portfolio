@@ -3,13 +3,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import IntroPage from "./components/introPage/IntroPage";
 import MainPage from "./components/mainPage/MainPage";
-
+import { BrowserRouter } from 'react-router-dom';
 function App() {
  
 
  
   return (
-    <Router>
+    <BrowserRouter basename="/Maria-Portfolio">
+    
     
         <Routes>
           {/* IntroPage is separate */}
@@ -17,8 +18,8 @@ function App() {
           {/* MainPage wraps the other pages */}
           <Route path="/*" element={<MainPage />} />
         </Routes>
-      
-    </Router>
+    
+    </BrowserRouter>
   );
 }
 

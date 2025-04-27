@@ -7,9 +7,9 @@ import "./IntroPage.css";
 
 export default function IntroPage() {
   return (
-  <div className="w-full flex items-center justify-center text-center h-screen">
-        <Spline scene="https://prod.spline.design/yp8rOn0jiiSPE69S/scene.splinecode" className="absolute"/>
-      <div className="flex items-center justify-center text-center flex-col text-[black]  w-[97%] h-[97%] " >
+  <div className="w-full flex items-center justify-center text-center min-h-screen overflow-y-hidden">
+        <Spline scene="https://prod.spline.design/yp8rOn0jiiSPE69S/scene.splinecode" className="absolute w-full h-screen object-cover"/>
+      <div className="flex items-center justify-center text-center flex-col text-[black] w-[97%] h-[100%] " >
       <NavBar/>
       <h1 className="text-pressure-media w-4/5 text-9xl font-bold  sm:h-30 md:h-30 lg:h-50 xl:h-50">
         {" "}
